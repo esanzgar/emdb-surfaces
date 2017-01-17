@@ -1,0 +1,27 @@
+{
+  "name": "emdb-surfaces",
+  "version": "1.0.7",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "An element to display XYZ surface renderings for EMDB entries.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed"
+  ],
+  "main": "emdb-surfaces.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/esanzgar/emdb-surfaces/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "iron-icon": "PolymerElements/iron-icon#^1.0.12"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0"
+  }
+}
