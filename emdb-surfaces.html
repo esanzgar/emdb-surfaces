@@ -75,7 +75,7 @@ Example:
       },
       computeUrl: function(entry){
         var entryClean = entry.replace('EMD-', '');
-        return ['//wwwdev.ebi.ac.uk/pdbe/emdb/prototype_images/normal', entryClean, entryClean].join('/');
+        return ['//wwwdev.ebi.ac.uk/pdbe/emdb/prototype_images/headless', entryClean, entryClean].join('/');
       },
       computeMode: function(close){
         return close ? 'close' : ''
